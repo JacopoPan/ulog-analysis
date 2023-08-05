@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ulog-analysis"
+version = "0.1.0"
+description = "Simple Python parser for PX4 ulog files"
+authors = ["Jacopo Panerati <jacopo.pan@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.7.0"
+numpy = "^1.25.0"
+tikzplotlib = "0.10.0"
+scipy = "1.11.0"
+pyulog = "1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
